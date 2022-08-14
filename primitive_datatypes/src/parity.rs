@@ -8,6 +8,7 @@
 ///
 /// assert_eq!(answer, parity);
 /// ```
+#[allow(dead_code)]
 pub fn parity1(n: i32) -> i32 {
     let mut parity = 0;
     let mut digit = n;
@@ -30,6 +31,8 @@ pub fn parity1(n: i32) -> i32 {
 ///
 /// assert_eq!(answer, parity);
 /// ```
+
+#[allow(dead_code)]
 pub fn parity2(n: i32) -> i32 {
     let mut parity = 0;
     let mut num = n;

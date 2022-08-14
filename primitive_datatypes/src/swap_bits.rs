@@ -11,6 +11,7 @@
 ///
 /// assert_eq!(answer, swapped);
 /// ```
+#[allow(dead_code)]
 pub fn swap(n: i32, i: i32, j: i32) -> i32 {
     if (&n >> i) & 1 != (&n >> j) & 1 {
         let mask = (1 << i) | (1 << j);
